@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust the spacing between social links */
+}
+
+/* Gonna style the buttons */
+button {
+  display: block;
+  margin: 20px auto; /* Center the button */
+}
+
+/* Gonna center the text */
+.text-center {
+  text-align: center;
+}
+
+/* Styling for the paragraph */
+p {
+  font-size: 1.2em; /* Adjust the font size for better readability */
+  max-width: 600px; /* Set a maximum width for the paragraph */
+  margin: 20px auto; /* Center the paragraph and add some spacing */
+  line-height: 1.5; /* Set line height for better readability */
+  padding: 15px; /* Add padding to give it a paper-like appearance */
+  background-color: #8716C3; /* Light background color for the paper effect */
+  border: 3px solid #33043d; /* Border for additional paper-like styling */
+  border-radius: 10px; /* Rounded corners for the paper effect */
+}
+
+/* Styling for the social icons and separation line */
+.social-icon {
+  width: 75px; /* Adjust the width of the icons */
+  height: 75px; /* Adjust the height of the icons */
+  opacity: 0.7; /* Set transparency */
+  margin: 0 10px; /* Adjust spacing between icons */
+  position: relative;
+  padding-top: -300%;
+}
+
+.custom-shape-divider-top-1707144772 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1707144772 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1707144772 .shape-fill {
+  fill: #8716C3;
+}
+
+ Line
+
+.custom-shape-divider-bottom-1707145072 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707145072 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1707145072 .shape-fill {
+  fill: #8716C3;
+}
+
+
+
+
+/* MEDIA QUERIES  */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
