@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
+  background-color: #F9B4F6;
 }
 
 h1 {
@@ -74,6 +75,7 @@ p {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+
 }
 
 .custom-shape-divider-top-1707144772 svg {
